@@ -1,0 +1,20 @@
+spelaren väljer en våning
+
+datorn väljer 3 våningar
+
+en array med din våning och dom 3 andra 
+    den som är längst fram i array en är prio ett och stannar på våningen om nån vill av 
+
+for loop tills array är tom
+
+        åk en våning åt prio etts håll 
+
+        om nån vill av släpp av och ta bort ur array
+        
+        annars fortsätt
+
+    när man har nått våningen som prio ett vill till ta bort ur array och sätt nästa personen i array som prio ett 
+
+loopa
+
+klart

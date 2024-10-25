@@ -1,7 +1,7 @@
 import random
 
 # Skapar variabler för hiss och våningar
-hiss_vaning = 0  # Hissen börjar på våning 0
+hiss_vaning = 5  # Hissen börjar på våning 0
 total_vaningar = 10  # Vi antar att det finns 10 våningar (0-9)
 
 # Funktion för att åka till en specifik våning
@@ -45,7 +45,13 @@ ak_till_vaning(anvandar_val)  # Hissen åker till användarens valda våning
 print("\nTre personer väljer sina våningar...")
 slumpade_vaningar = slumpa_tre_vaningar()
 
+
+
 print(f"De slumpade våningarna är: {slumpade_vaningar}")
+
+slumpade_vaningar.sort()
+
+hiss_hall = ""
 
 # Sortera våningarna efter ordningen de trycktes på (i detta fall oförändrat)
 print("Hissen kommer att åka till dessa våningar i följande ordning:")
@@ -55,3 +61,5 @@ print(slumpade_vaningar)
 hantera_hiss_rorelse(slumpade_vaningar)
 
 print("Alla har nått sina våningar!")
+
+
